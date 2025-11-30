@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100;
+
+}
+
+.imagen img {
+  width: 120px;     
+  height: 120px;    
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto;
+}
+.imagen div {
+  margin-bottom: 20px;
+}
+
+.imagen {
+  text-align: center;
+}
